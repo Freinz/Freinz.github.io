@@ -1,0 +1,65 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 20px;
+    background-color: rgb(41, 36, 36);
+    padding-top: 2%;
+}
+
+#tittle {
+    font-size: 30px;
+    text-align: center;
+    text-transform:capitalize ;
+}
+
+form {
+    margin: 0 auto;
+    width: 20%;
+    padding: 15px;
+    border:1px solid #CCC;
+    border-radius: 20px ;
+    background-color: white;
+}
+
+fieldset {
+    border: 1px solid lightgrey;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#phone {
+    width: 165px;
+}
+
+div + div {
+    margin-top: 10px;
+} 
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 24%;
+}
+
+label, #tanggal {
+    width: 90%;
+}
+  
+button {
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+  
+#submitbutton {
+    display: flex; 
+    justify-content: center;
+}
+
+
+

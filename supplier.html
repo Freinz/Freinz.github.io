@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Supplier</title>
+    <link rel="stylesheet" href="/Template/personal website design/lat2.css">
+    <script>
+        function showalert() {
+            var myText = "data berhasil tersimpan";
+            alert(myText)
+        }
+    </script>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div>
+        <form id="survey-form" action="index.html">
+        <h1 id="tittle">Pendataan Karyawan Rumah Makan Mesir</h1>
+        <p id="description"><b>Note:</b>Isi Form ini dengan seksama</p>
+
+        <fieldset>
+        
+            <legend><b>Biodata Personal</b> </legend>
+            <div>
+                <label for="name" id="name-label">Nama:</label>
+                <input type="text" name="name" id="user_name" placeholder="Masukkan nama disini">
+            </div>
+
+            <div>
+                <label for="address-label">Alamat:</label>
+                <input type="Address" name="Address" id="address" placeholder="Masukkan alamat disini">
+            </div>
+
+            <div>
+                <label for="phoneNumber">Nomor HP:</label>
+                <input type="number" name="phoneNumber" id="phone" placeholder="Masukkan 12 digit angka" min="1" max="11">
+            </div>
+
+
+            <!-- ----------------Radio Button---------------- -->
+            <div id="gender">
+                <label for="Gender">Jenis Kelamin</label>
+                <p>
+                    <input type="radio" name="Gender" value="Laki-Laki" checked>Laki-Laki<br>
+                    <input type="radio" name="Gender" value="Perempuan">Perempuan<br>
+                </p>
+            </div>
+
+            
+        </fieldset>
+
+        <input type="button" on>
+      
+
+        <script src="submit.js"></script>
+        <div id="submitbutton">
+            <button type="submit" id="submit" onclick="showalert()">Kirimkan Disini</button></div>
+            
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="/Template/personal website design/lat2.css">
+    <script>
+        function showalert() {
+            var myText = "data berhasil tersimpan";
+            alert(myText)
+        }
+    </script>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div>
+        <form id="survey-form" action="index.html">
+        <h1 id="tittle">Pendataan Menu-Menu Rumah Makan Mesir</h1>
+        <p id="description"><b>Note:</b>Ini Form Pengisian Menu</p>
+
+        <fieldset>
+        
+            <legend><b>Menu-menu</b> </legend>
+            <div>
+                <label for="name" id="name-label">Nama Menu :</label>
+                <input type="text" name="name" id="user_name" placeholder="Masukkan Menu disini">
+            </div>
+
+            <div>
+                <label for="address-label">Harga :</label>
+                <input type="number" name="Address" id="address" placeholder="Masukkan Harga disini">
+            </div>
+
+
+
+            
+        </fieldset>
+
+        <script src="submit.js"></script>
+        <div id="submitbutton">
+            <button type="submit" id="submit" onclick="showalert()">Kirimkan Disini</button></div>
+            
+    </div>
+
+    </div>
+</form>
+</body>
+</html>
